@@ -1,0 +1,8 @@
+#!name=Locket Gold VIP
+#!desc=Fake 30s va AI Icon
+
+[Script]
+Locket_Script = type=http-response, pattern=^https?:\/\/.*(revenuecat|locketcamera)\.com\/.*, script-path=https://raw.githubusercontent.com/tqm250409-blip/locket-gold-server/main/hack.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = api.revenuecat.com, api.locketcamera.com
